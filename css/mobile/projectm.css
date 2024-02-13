@@ -1,0 +1,135 @@
+.projects {
+    width: 1000px;
+    height: 800px;
+    padding-top: 90px;
+  
+  }
+  .projects .parent {
+    width: 999px;
+    height: 650px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  
+  }
+  .projects .parent .text {
+    width: 109px + 640px;
+    height: 170px;
+  }
+  .projects .parent .text hr {
+    width: 72px;
+    height: 3px;
+    color: black;
+    background-color: black;
+    margin-left: 80px;
+  }
+  .projects .parent .text p {
+    color: #050506;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 186px;
+    margin-top: -10px;
+  }
+  .projects .parent .text h3 {
+    width: 700px;
+    height: 116px;
+    color: rgb(8, 8, 8);
+    font-family: Roboto;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    font-family: Roboto;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-left: 180px;
+    margin-top: 30px;
+  }
+  .projects .parent .project {
+    width: 1000px;
+    height: 370px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 90px;
+    gap: 24px;
+    
+  }
+  
+  .projects .parent .project .child {
+    width: 260px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+   
+  }
+  
+  .projects .parent .project .child .hero-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .projects .parent .project .child .hero-image img {
+    width: 260px;
+    height: 300px;
+  }
+  
+  .projects .parent .project .child .hero-image .hero-text {
+    height: 160px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    gap: 24px;
+    margin-top: -50px;
+    margin-left: -90px;
+  
+  }
+  
+  .projects .parent .project .child .hero-image .hero-text h5 {
+    width: 305px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  
+  .projects .parent .project .child .hero-image .hero-text p {
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  .projects .parent .project .child .hero-image .hero-text button {
+    width: 130px;
+    height: 50px;
+    border: none;
+    outline: 0;
+    display: block;
+    padding: 14px 28px;
+    color: black;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 4px;
+    backdrop-filter: blur(40px);
+    margin-left: 0px;
+  }
+  
+  .projects .parent .project .child .hero-image .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+  

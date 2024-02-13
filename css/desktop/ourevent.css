@@ -1,0 +1,132 @@
+
+.kol{
+    width: 1200px;
+    height: 199px;
+  
+    margin-left: 115px;
+}
+.kol h5{
+    width: 150px;
+    height: 50px;
+    font-size: 28px;
+    font-family: Roboto;
+    margin-left: 20px;
+}
+.kol .two{
+    width: inherit;
+    height: inherit;
+   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+   
+    
+}
+.kol .two .left{
+    width: 550px;
+    height: 120px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    gap: 25px;
+    background-color: rgb(186, 201, 207);
+    border-radius: 10px;
+}
+
+.kol .two .left .l-1{
+    width: 100px;
+    height: inherit;
+    
+}
+
+.kol .two .left .l-1 h3{
+    font-size: 34px;
+}
+
+
+.kol .two .left .l-1 p{
+    font-size: 18px;
+    font-family: roboto;
+}
+
+
+.kol .two .left .l-2{
+    width: 400px;
+    height: inherit;
+    
+}
+
+.kol .two .left .l-2 h5{
+    width: 300px;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: light;
+}
+
+
+.kol .two .left .l-2 p{
+    font-size: 20px;
+    font-family: roboto;
+}
+
+.kol .two .left .l-3 img{
+    width: 28%;
+    border-radius: 50%;
+    margin-top: 54px;
+   
+}
+
+.kol .two .right{
+    width: 550px;
+    height: 120px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 25px;
+    background-color: rgb(186, 201, 207);
+    border-radius: 10px;
+}
+
+.kol .two .right .l-1{
+    width: 100px;
+    height: inherit;
+
+}
+
+.kol .two .right .l-1 h3{
+    font-size: 34px;
+}
+
+
+.kol .two .right .l-1 p{
+    font-size: 18px;
+    font-family: roboto;
+}
+
+
+.kol .two .right .l-2{
+    width: 400px;
+    height: inherit;
+ 
+}
+
+.kol .two .right .l-2 h5{
+    width: 300px;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: light;
+}
+
+
+.kol .two .right .l-2 p{
+    font-size: 20px;
+    font-family: roboto;
+}
+
+.kol .two .right .l-3 img{
+    width: 28%;
+    border-radius: 50%;
+    margin-top: 54px;
+   
+}

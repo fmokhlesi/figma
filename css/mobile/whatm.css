@@ -1,0 +1,117 @@
+.what {
+    width: 1000px;
+    height: 901px;
+  
+    padding-top: 15px;
+  }
+  .what .parent {
+    width:999px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+  }
+  .what .parent .care {
+    width: 508px;
+    height: 740px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  .what .parent .care hr {
+    width: 70px;
+    height: 3px;
+    background-color: black;
+    stroke-width: 3px;
+    color: #07080b;
+    backdrop-filter: blur(15px);
+    margin-left: 20px;
+  }
+  .what .parent .care h2 {
+    color: #010206;
+    font-family: 2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .what .parent .care h5 {
+    width: 500px;
+    height: 116px;
+    color: rgb(8, 8, 8);
+    font-family: Roboto;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 90%;
+    margin-left: 90px;
+    margin-top: -30px;
+  }
+  
+  .what .parent .care p:nth-of-type(1) {
+    width: 510px;
+    height: 90px;
+    color: rgb(49, 47, 47);
+    font-family: Roboto;
+    letter-spacing: 2px;
+    font-style: normal;
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 130%;
+  }
+  .what .parent .care .mincare {
+    width: 509px;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+  
+  .what .parent .care .mincare .c {
+    width: 500px;
+    height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-left: 90px;
+  }
+  .what .parent .care .mincare .c img {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-right: 20px;
+  
+  }
+  .what .parent .care .mincare .c h4 {
+    color: #1d2130;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .what .parent .care .mincare .c p {
+      width: 304px;
+      height: 40px;
+    margin-bottom: 20px;
+    color: #525560;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 230;
+    line-height: 160%;
+    margin-top: 8px;
+    margin-left: 40px;
+  }
+  

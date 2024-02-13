@@ -1,0 +1,177 @@
+.footer {
+    width: 1000px;
+    height: 240px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: self-start;
+    gap: 80px;
+    margin-top: 45px;
+  }
+  .footer .one h5 {
+    width: 100px;
+    height: 20px;
+    font-size: 26px;
+    font-family: Roboto;
+    font-weight: 300;
+    color: white;
+    margin-left: -90px;
+    margin-top: 30px;
+  }
+  .footer .two {
+    width: 100px;
+    height: inherit;
+  
+    display: flex;
+    flex-flow: column;
+    gap: 17px;
+    margin-top: 35px;
+  }
+  
+  .footer .two h5 {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+  
+    font-family: Roboto;
+    font-weight: normal;
+  }
+  .footer .two a {
+    display: block;
+    text-decoration: none;
+    text-align: start;
+    font-size: 14px;
+    color: white;
+    font-family: Roboto;
+  }
+  
+  .footer .two a:hover {
+    display: block;
+    text-decoration: none;
+    text-align: start;
+    font-size: 14px;
+    color: rgb(16, 15, 15);
+    font-family: Roboto;
+  }
+  
+  .footer .three {
+    width: 100px;
+    height: inherit;
+  
+    display: flex;
+    flex-flow: column;
+    gap: 17px;
+    margin-top: 35px;
+  }
+  
+  .footer .three h5 {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    font-weight: 100px;
+  
+    font-family: Roboto;
+    font-weight: normal;
+  }
+  .footer .three a {
+    display: block;
+    text-decoration: none;
+    text-align: start;
+    font-size: 14px;
+    color: white;
+    font-weight: 100px;
+    font-family: Roboto;
+  }
+  
+  .footer .three a:hover {
+    display: block;
+    text-decoration: none;
+    text-align: start;
+    font-size: 14px;
+    color: rgb(16, 15, 15);
+    font-family: Roboto;
+  }
+  
+  .footer .four {
+    width: 100px;
+    height: inherit;
+  
+    display: flex;
+    flex-flow: column;
+    gap: 17px;
+    margin-top: 35px;
+  }
+  
+  .footer .four h5 {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    font-family: Roboto;
+    font-weight: normal;
+  }
+  .footer .four a {
+    display: block;
+    text-decoration: none;
+    text-align: start;
+    font-size: 14px;
+    color: white;
+    font-family: Roboto;
+  }
+  
+  .footer .four a:hover {
+    display: block;
+    text-decoration: none;
+    text-align: start;
+    font-size: 14px;
+    color: rgb(16, 15, 15);
+    font-family: Roboto;
+  }
+  
+  .footer .five {
+    width: 290px;
+    height: inherit;
+  
+    display: flex;
+    flex-flow: column;
+    margin-top: 35px;
+    gap: 30px;
+  }
+  .footer .five h5 {
+    width: 290px;
+    font-size: 26px;
+    color: white;
+    font-family: Roboto;
+    font-weight: normal;
+  }
+  .footer .five button {
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    border-inline: 12px;
+    border-inline-color: rgb(222, 217, 217);
+    margin-left: 200px;
+    margin-top: -80px;
+  }
+  
+  .footer .five button:hover {
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    border-inline: 12px;
+    border-inline-color: rgb(8, 7, 7);
+    margin-left: 200px;
+    margin-top: -80px;
+    color: gray;
+  }
+  .footer .five input {
+    width: 201px;
+    height: 50px;
+    border-radius: 10px;
+    border-inline: 12px;
+    margin-top: 10px;
+  }
+  

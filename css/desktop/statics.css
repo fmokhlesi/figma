@@ -1,0 +1,116 @@
+.statictis {
+  width: 70%;
+  height: 500px;
+  background-color: black;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  margin-top: 30px;
+  margin-left:165px;
+
+}
+.statictis .left {
+  width: 39%;
+  height: inherit;
+
+  margin-left: 78px;
+}
+.statictis .left .parent {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  font-family: Roboto;
+  
+}
+.statictis .left .parent h3 {
+  width: 604px;
+  color: aliceblue;
+  font-size: 42px;
+}
+.statictis .left .parent p {
+  width: 604px;
+  color: aliceblue;
+  font-size: 17px;
+}
+.statictis .left .parent .stats {
+  width: 615px;
+  height: 100px;
+
+  margin-top: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(2, 20px);
+  gap: 10px;
+  column-gap: 20px;
+}
+
+.statictis .left .parent .stats .stat {
+  width: 160px;
+  padding: 5px;
+  box-sizing: border-box;
+
+  margin-top: 10px;
+  font-family: roboto;
+}
+
+.statictis .left .parent .stats .stat .s1 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: #bef3c0;
+}
+.statictis .left .parent .stats .stat .s2 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: #ac94f1;
+}
+.statictis .left .parent .stats .stat .s3 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: #fff0ca;
+}
+.statictis .left .parent .stats .stat .s4 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: #f9cf64;
+}
+.statictis .left .parent .stats .stat .s5 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: #f38fbf;
+}
+.statictis .left .parent .stats .stat .ss {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.statictis .right {
+  width: 40%;
+  height: inherit;
+  background-color: black;
+}
+
+.statictis .right .parent {
+  width: 43%;
+  height: inherit;
+  background-color: black;
+}
+.statictis .right .parent #container {
+  width: 533px;
+  height: 500px;
+  margin-left: 20px;
+}

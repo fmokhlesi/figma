@@ -1,0 +1,114 @@
+.statictis {
+    width: 70%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left:50px;
+  
+  }
+  .statictis .left {
+    width: 75%;
+    height: inherit;
+  
+    margin-left: 11px;
+  }
+  .statictis .left .parent {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    font-family: Roboto;
+    
+  }
+  .statictis .left .parent h3 {
+    width: 200px;
+    color: aliceblue;
+    font-size: 20px;
+  }
+  .statictis .left .parent p {
+    width: 200px;
+    color: aliceblue;
+    font-size: 10px;
+  }
+  .statictis .left .parent .stats {
+    width: 150px;
+    height: 100px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(2, 20px);
+    gap: 5px;
+    column-gap: 10px;
+  }
+  
+  .statictis .left .parent .stats .stat {
+    width: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-family: roboto;
+  }
+  
+  .statictis .left .parent .stats .stat .s1 {
+    width: 10px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: #bef3c0;
+  }
+  .statictis .left .parent .stats .stat .s2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: #ac94f1;
+  }
+  .statictis .left .parent .stats .stat .s3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: #fff0ca;
+  }
+  .statictis .left .parent .stats .stat .s4 {
+    width: 10px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: #f9cf64;
+  }
+  .statictis .left .parent .stats .stat .s5 {
+    width: 10px;
+    height: 10px;
+    border-radius: 4px;
+    background-color: #f38fbf;
+  }
+  .statictis .left .parent .stats .stat .ss {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 60%;
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+  .statictis .right {
+    width: 70%;
+    height: inherit;
+  
+  }
+  
+  .statictis .right .parent {
+    width: 50%;
+    height: inherit;
+   
+  }
+  .statictis .right .parent #container {
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+  }
+  
